@@ -1,0 +1,28 @@
+{
+  "name": "zaw-fetch",
+  "description": "fetches calender info from ZAW website",
+  "version": "1.0.0",
+  "author": "Dennis Saenger <npm17🌀mail.ds82.de>",
+  "dependencies": {
+    "jsdom": "10.1.0",
+    "request": "2.81.0",
+    "request-promise": "4.2.1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ds82/zaw-fetch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ds82/zaw-fetch/issues"
+  },
+  "homepage": "https://github.com/ds82/zaw-fetch#readme"
+}
