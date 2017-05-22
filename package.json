@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Dennis Saenger <npm17🌀mail.ds82.de>",
   "dependencies": {
+    "cheerio": "0.22",
     "jsdom": "10.1.0",
     "request": "2.81.0",
     "request-promise": "4.2.1"
