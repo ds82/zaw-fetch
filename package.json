@@ -1,7 +1,7 @@
 {
   "name": "zaw-fetch",
   "description": "fetches calender info from ZAW website",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Dennis Saenger <npm17🌀mail.ds82.de>",
   "dependencies": {
     "cheerio": "0.22",
