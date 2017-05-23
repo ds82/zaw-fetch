@@ -1,5 +1,6 @@
 const rp = require('request-promise');
 const cheerio = require('cheerio');
+const ical2json = require('ical2json');
 
 function getIcal(url) {
     return rp(url)
@@ -7,4 +8,10 @@ function getIcal(url) {
       .then($ => $('form [name=ics]').val());
 }
 
-module.exports = { getIcal };
+function getJson(url) {
+  return getIcal(url).then(ics => ical2json.convert(ics));
+}
+
+module.exports = {
+  getIcal, getJson
+};
